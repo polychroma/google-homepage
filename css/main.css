@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 /* CENTER ITEMS */
@@ -14,23 +15,22 @@ div {
   width: 100%;
   text-align: center;
   clear: both;
-  margin-top: 250px;
 }
 
 input {
   display: block;
-  width: 500px;
+  width: 450px;
   height: 30px;
   margin: 0 auto;
 }
 
 div img {
-  margin: 0px 0px 25px 0px;
+  margin: 200px 0px 25px 0px;
 }
 
 div button {
   padding: 8px;
-  margin: 20px 5px 20px 5px;
+  margin: 30px 5px 20px 5px;
 }
 
 
@@ -52,9 +52,6 @@ a {
 
 header {
   float: right;
-  position: absolute;
-  bottom: 910;
-  left: 770;
 }
 
 header a {
@@ -79,6 +76,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
+  line-height: 5px;
 }
 
 .r_footer {
