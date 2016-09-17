@@ -1,0 +1,90 @@
+* {
+      box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* CENTER ITEMS */
+
+
+div {
+  width: 100%;
+  text-align: center;
+  clear: both;
+  margin-top: 250px;
+}
+
+input {
+  display: block;
+  width: 500px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+div img {
+  margin: 0px 0px 25px 0px;
+}
+
+div button {
+  padding: 8px;
+  margin: 20px 5px 20px 5px;
+}
+
+
+/* LIST ITEMS FOR HEADER & FOOTER */
+
+
+li {
+  display: inline;
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* HEADER */
+
+
+header {
+  float: right;
+  position: absolute;
+  bottom: 910;
+  left: 770;
+}
+
+header a {
+  color: #000000;
+}
+
+header button {
+  background: #4387fd;
+  color: white;
+  height: 30px;
+  width: 70px;
+  border: 0;
+}
+
+
+/* FOOTER */
+
+
+footer {
+  background-color: #f5f5f5;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.r_footer {
+  margin-left: 575px;
+}
+
+footer a {
+  color: #808080;
+}
