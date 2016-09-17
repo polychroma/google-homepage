@@ -24,10 +24,14 @@ div img {
 }
 
 div button {
+  height: 36px;
   padding: 8px;
   margin: 30px 5px 20px 5px;
   font-size: 13px;
   border: none;
+  background-color: #f2f2f2;
+  color: #757575;
+  font-weight: bold;
 }
 
 input {
