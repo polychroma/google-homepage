@@ -6,22 +6,17 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100%;
+    font-family: arial,sans-serif;
+    font-size: small;
 }
 
-/* CENTER ITEMS */
+/* CENTER BLOCK */
 
 
 div {
   width: 100%;
   text-align: center;
   clear: both;
-}
-
-input {
-  display: block;
-  width: 450px;
-  height: 30px;
-  margin: 0 auto;
 }
 
 div img {
@@ -31,6 +26,15 @@ div img {
 div button {
   padding: 8px;
   margin: 30px 5px 20px 5px;
+  font-size: 13px;
+  border: none;
+}
+
+input {
+  display: block;
+  width: 450px;
+  height: 30px;
+  margin: 0 auto;
 }
 
 
@@ -79,21 +83,21 @@ footer {
   line-height: 5px;
 }
 
+footer a {
+  overflow: auto;
+  color: #808080;
+}
+
 .l_footer {
   float: left;
   position: relative;
-  bottom: 10px;
+  bottom: 5px;
   right: 15px;
 }
 
 .r_footer {
   float: right;
   position: relative;
-  bottom: 10px;
+  bottom: 5px;
   right: 15px;
-}
-
-footer a {
-  overflow: auto;
-  color: #808080;
 }
